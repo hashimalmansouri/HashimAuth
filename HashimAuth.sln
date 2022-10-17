@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashimAuth.Server", "HashimAuth\Server\HashimAuth.Server.csproj", "{EF37DA52-F8EC-42AE-9CA3-9B043682527D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashimAuth.Client", "HashimAuth\Client\HashimAuth.Client.csproj", "{2B5351E5-0578-450A-BEC0-F590064D4BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashimAuth.Shared", "HashimAuth\Shared\HashimAuth.Shared.csproj", "{F39EEF75-A11A-4427-B0DF-A369D5A0AF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF37DA52-F8EC-42AE-9CA3-9B043682527D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF37DA52-F8EC-42AE-9CA3-9B043682527D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF37DA52-F8EC-42AE-9CA3-9B043682527D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF37DA52-F8EC-42AE-9CA3-9B043682527D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5351E5-0578-450A-BEC0-F590064D4BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5351E5-0578-450A-BEC0-F590064D4BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5351E5-0578-450A-BEC0-F590064D4BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5351E5-0578-450A-BEC0-F590064D4BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39EEF75-A11A-4427-B0DF-A369D5A0AF9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39EEF75-A11A-4427-B0DF-A369D5A0AF9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39EEF75-A11A-4427-B0DF-A369D5A0AF9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39EEF75-A11A-4427-B0DF-A369D5A0AF9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C8F09F4-9613-44B3-9F45-B46CEB2C1D07}
+	EndGlobalSection
+EndGlobal

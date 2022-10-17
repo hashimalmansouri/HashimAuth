@@ -1,0 +1,25 @@
+﻿@inherits LayoutComponentBase
+@inject HashimAuth.Client.AuthProviders.IAuthenticationService _authenticationService
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a @onclick="Logout">Logout</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code{
+    async Task Logout()
+    {
+        await _authenticationService.Logout();
+    }
+}
